@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2430D98E1E93550E002C384D /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2430D98D1E93550E002C384D /* CartViewModel.swift */; };
+		2430D9901E93556B002C384D /* CartItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2430D98F1E93556B002C384D /* CartItemListViewController.swift */; };
+		2430D9921E9356DE002C384D /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2430D9911E9356DE002C384D /* CartItem.swift */; };
+		2430D9941E93570E002C384D /* Chocolate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2430D9931E93570E002C384D /* Chocolate.swift */; };
+		2430D9961E9357BC002C384D /* CartItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2430D9951E9357BC002C384D /* CartItemCell.swift */; };
+		2430D9981E937996002C384D /* RxEventHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2430D9971E937996002C384D /* RxEventHub.swift */; };
+		2430D99A1E9379C1002C384D /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2430D9991E9379C1002C384D /* Events.swift */; };
 		24F212C11E9347BC008AA1FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F212C01E9347BC008AA1FB /* AppDelegate.swift */; };
-		24F212C31E9347BC008AA1FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F212C21E9347BC008AA1FB /* ViewController.swift */; };
+		24F212C31E9347BC008AA1FB /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F212C21E9347BC008AA1FB /* CartViewController.swift */; };
 		24F212C61E9347BC008AA1FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F212C41E9347BC008AA1FB /* Main.storyboard */; };
 		24F212C81E9347BC008AA1FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F212C71E9347BC008AA1FB /* Assets.xcassets */; };
 		24F212CB1E9347BC008AA1FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F212C91E9347BC008AA1FB /* LaunchScreen.storyboard */; };
+		8BCFFCEF032F1BBBF17B079E /* Pods_Common_RxSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97E4CB95BEA9C2D760799A1 /* Pods_Common_RxSwiftDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03E334D1381340F729FE89E3 /* Pods-Common-RxSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-RxSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Common-RxSwiftDemo/Pods-Common-RxSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2430D98D1E93550E002C384D /* CartViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		2430D98F1E93556B002C384D /* CartItemListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItemListViewController.swift; sourceTree = "<group>"; };
+		2430D9911E9356DE002C384D /* CartItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		2430D9931E93570E002C384D /* Chocolate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chocolate.swift; sourceTree = "<group>"; };
+		2430D9951E9357BC002C384D /* CartItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItemCell.swift; sourceTree = "<group>"; };
+		2430D9971E937996002C384D /* RxEventHub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxEventHub.swift; sourceTree = "<group>"; };
+		2430D9991E9379C1002C384D /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		2446AD3EF85C541B91F4BC87 /* Pods-Common-RxSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-RxSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Common-RxSwiftDemo/Pods-Common-RxSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		24F212BD1E9347BC008AA1FB /* RxSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F212C01E9347BC008AA1FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24F212C21E9347BC008AA1FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24F212C21E9347BC008AA1FB /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		24F212C51E9347BC008AA1FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24F212C71E9347BC008AA1FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24F212CA1E9347BC008AA1FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24F212CC1E9347BC008AA1FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97E4CB95BEA9C2D760799A1 /* Pods_Common_RxSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Common_RxSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BCFFCEF032F1BBBF17B079E /* Pods_Common_RxSwiftDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01EDC1F1D4897A4F6542338F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2446AD3EF85C541B91F4BC87 /* Pods-Common-RxSwiftDemo.debug.xcconfig */,
+				03E334D1381340F729FE89E3 /* Pods-Common-RxSwiftDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		24F212B41E9347BC008AA1FB = {
 			isa = PBXGroup;
 			children = (
 				24F212BF1E9347BC008AA1FB /* RxSwiftDemo */,
 				24F212BE1E9347BC008AA1FB /* Products */,
+				01EDC1F1D4897A4F6542338F /* Pods */,
+				BBAF9F58AA4050CABC90FD87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +84,29 @@
 		24F212BF1E9347BC008AA1FB /* RxSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2430D9971E937996002C384D /* RxEventHub.swift */,
+				24F212CC1E9347BC008AA1FB /* Info.plist */,
 				24F212C01E9347BC008AA1FB /* AppDelegate.swift */,
-				24F212C21E9347BC008AA1FB /* ViewController.swift */,
-				24F212C41E9347BC008AA1FB /* Main.storyboard */,
+				2430D9911E9356DE002C384D /* CartItem.swift */,
+				2430D9951E9357BC002C384D /* CartItemCell.swift */,
+				2430D98F1E93556B002C384D /* CartItemListViewController.swift */,
+				24F212C21E9347BC008AA1FB /* CartViewController.swift */,
+				2430D98D1E93550E002C384D /* CartViewModel.swift */,
+				2430D9931E93570E002C384D /* Chocolate.swift */,
 				24F212C71E9347BC008AA1FB /* Assets.xcassets */,
 				24F212C91E9347BC008AA1FB /* LaunchScreen.storyboard */,
-				24F212CC1E9347BC008AA1FB /* Info.plist */,
+				24F212C41E9347BC008AA1FB /* Main.storyboard */,
+				2430D9991E9379C1002C384D /* Events.swift */,
 			);
 			path = RxSwiftDemo;
+			sourceTree = "<group>";
+		};
+		BBAF9F58AA4050CABC90FD87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C97E4CB95BEA9C2D760799A1 /* Pods_Common_RxSwiftDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24F212CF1E9347BC008AA1FB /* Build configuration list for PBXNativeTarget "RxSwiftDemo" */;
 			buildPhases = (
+				140B097E709C9465B5483E2F /* [CP] Check Pods Manifest.lock */,
 				24F212B91E9347BC008AA1FB /* Sources */,
 				24F212BA1E9347BC008AA1FB /* Frameworks */,
 				24F212BB1E9347BC008AA1FB /* Resources */,
+				C67A9BA2F86909143BF455FF /* [CP] Embed Pods Frameworks */,
+				36AB42ED305D4FD22668764F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +180,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		140B097E709C9465B5483E2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		36AB42ED305D4FD22668764F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Common-RxSwiftDemo/Pods-Common-RxSwiftDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C67A9BA2F86909143BF455FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Common-RxSwiftDemo/Pods-Common-RxSwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24F212B91E9347BC008AA1FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24F212C31E9347BC008AA1FB /* ViewController.swift in Sources */,
+				24F212C31E9347BC008AA1FB /* CartViewController.swift in Sources */,
+				2430D9901E93556B002C384D /* CartItemListViewController.swift in Sources */,
+				2430D9941E93570E002C384D /* Chocolate.swift in Sources */,
 				24F212C11E9347BC008AA1FB /* AppDelegate.swift in Sources */,
+				2430D9961E9357BC002C384D /* CartItemCell.swift in Sources */,
+				2430D9921E9356DE002C384D /* CartItem.swift in Sources */,
+				2430D99A1E9379C1002C384D /* Events.swift in Sources */,
+				2430D9981E937996002C384D /* RxEventHub.swift in Sources */,
+				2430D98E1E93550E002C384D /* CartViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +313,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -251,12 +355,14 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		24F212D01E9347BC008AA1FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2446AD3EF85C541B91F4BC87 /* Pods-Common-RxSwiftDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P2KQ62R5X2;
@@ -264,12 +370,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = info.zzdjk6.RxSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		24F212D11E9347BC008AA1FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E334D1381340F729FE89E3 /* Pods-Common-RxSwiftDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P2KQ62R5X2;
@@ -277,7 +384,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = info.zzdjk6.RxSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -300,6 +407,7 @@
 				24F212D11E9347BC008AA1FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
