@@ -50,12 +50,19 @@ class CartViewController: UIViewController {
     }
 
     @IBAction func resetCart() {
+        let asyncTask = viewModel
+            .rx_loadItemList() // generate an observable
+            .delaySubscription(0.5, scheduler: MainScheduler.instance) // pretend to be time-costing
+            .observeOn(MainScheduler.instance) // run code inside Observer on main thread
+
+        // nothing happens yet
+
         let hud = MBProgressHUD.showHUDAddedTo(view, animated: true)
         hud.backgroundColor = UIColor.init(white: 0, alpha: 0.3)
-        viewModel
-            .rx_loadItemList()
-            .delaySubscription(0.5, scheduler: MainScheduler.instance)
-            .observeOn(MainScheduler.instance)
+
+        // cold signal, triggered by subscription
+        // we can validate via breakpoint
+        asyncTask
             .subscribeNext { (_) in
                 hud.hideAnimated(true)
             }
@@ -70,6 +77,7 @@ class CartViewController: UIViewController {
             .delaySubscription(0.2, scheduler: MainScheduler.instance)
             .observeOn(MainScheduler.instance) // if not on Main Thread, the app should crash
             .doOn { (_) in
+                // execute when event occur, no matter what it is
                 hud.hideAnimated(true)
             }
             .doOnError { [weak self] (error) in
@@ -83,6 +91,7 @@ class CartViewController: UIViewController {
     }
 
     @IBAction func notifyCartConfirmed() {
+        // https://github.com/RxSwiftCommunity/RxEventHub
         RxEventHub
             .sharedHub
             .notify(CartConfirmedEventProvider(), data: (quantity: viewModel.amountQuantity, price: viewModel.amountPrice))

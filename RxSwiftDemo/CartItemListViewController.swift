@@ -18,6 +18,7 @@ class CartItemListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // hot signal
         viewModel
             .rx_itemList
             .asObservable()

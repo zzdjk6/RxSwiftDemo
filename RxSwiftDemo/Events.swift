@@ -8,4 +8,5 @@
 
 import Foundation
 
+// define name and type, will not conflict with others
 class CartConfirmedEventProvider: RxEventProvider<(quantity: Int, price: Int)> {}
